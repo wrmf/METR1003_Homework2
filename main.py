@@ -1,6 +1,12 @@
 import matplotlib.pyplot as plt
 import math as math
 
+'''
+METR-1003 Homework 2 Quesiton 3
+@author William McGovern-Fagg
+@author wrmf
+'''
+
 counter = 200
 vapour = []
 temp = []
