@@ -12,7 +12,7 @@ vapour = []
 temp = []
 
 while(counter <= 400):
-    vapour.append(math.pow(6.11, (((2.5*pow(10, 6))/461)*((1/273.15)-(1/counter)))))
+    vapour.append(6.11*math.pow(math.e, (((2.5*pow(10, 6))/461)*((1/273.15)-(1/counter)))))
     temp.append(counter)
     counter += 1
 
