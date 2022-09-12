@@ -19,4 +19,5 @@ while(counter <= 400):
 plt.plot(temp, vapour)
 plt.ylabel("Saturation Vapour Pressure hPa")
 plt.xlabel("Temperature in K")
+plt.title("Made in Python with Matplotlib\nBy William McGovern-Fagg\nhttps://github.com/wrmf/METR1003_Homework2", fontsize=10)
 plt.savefig("plt.png")
